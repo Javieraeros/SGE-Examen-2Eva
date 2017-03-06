@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <!--Aqui mostramos los cursos que sacamos del Servidor-->
+    <div id="txtContenedor"></div>
+    <br/>
+    <div id="radioButtons" style="visibility:hidden">
+        <input type="radio" name="seleccion" id="teclado" value="Teclado" checked="checked" onclick="clickTeclado()">Teclado</input>
+        <input type="radio" name="seleccion" id="raton" value="Raton"  onclick="clickRaton()">Ratón</input>
+        <div id="contenedorNumeros" style="visibility:hidden"></div>
+    </div>
+    <div id="tableContenedor"></div>
+    <br/>
+    <input id="btnAceptar" type="hidden" onclick="compruebaErrores()" value="Guardar" />
+    <!--Hacer referencia al Js que queremos usar, siempre va por debajo del boton-->
+    <script src="../Scripts/AJAX.js" language="javaScript" type="text/javascript"></script>
+</body>
+</html>

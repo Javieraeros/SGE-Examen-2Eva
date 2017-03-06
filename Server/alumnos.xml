@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BestAcademy>
+  <curso>
+    <codigoCurso>1</codigoCurso>
+    <nombreCurso>.NET is funny</nombreCurso>
+    <alumnos>
+      <alumno>Miguel Angel Barrera</alumno>
+      <alumno>David Benitez</alumno>
+      <alumno>Daniel Garcia</alumno>
+      <alumno>Javier Gonzalez</alumno>
+    </alumnos>
+   </curso>
+
+  <curso>
+    <codigoCurso>2</codigoCurso>
+    <nombreCurso>The magic of UWP</nombreCurso>
+    <alumnos>
+      <alumno>Antonio Hernandez</alumno>
+      <alumno>Daniel Leal</alumno>
+      <alumno>Alberto Navarro</alumno>
+      <alumno>Adrian Pol</alumno>
+      <alumno>Carlos Prieto</alumno>      
+    </alumnos>
+  </curso>
+
+  <curso>
+    <codigoCurso>3</codigoCurso>
+    <nombreCurso>Java for loosers</nombreCurso>
+    <alumnos>
+      <alumno>Javier Ruiz</alumno>
+    </alumnos>
+  </curso>
+
+  <curso>
+    <codigoCurso>4</codigoCurso>
+    <nombreCurso>ASP .NET MVC (My Visual is Cool)</nombreCurso>
+    <alumnos>
+      <alumno>Jose Manuel Ramirez</alumno>
+      <alumno>Mercedes Requena</alumno>
+      <alumno>Francisco José Rodriguez</alumno>
+      <alumno>Jose Antonio Ruiz</alumno>
+      <alumno>Alvaro Tellez</alumno>
+    </alumnos>
+  </curso>
+</BestAcademy>
